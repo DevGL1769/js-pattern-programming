@@ -20,7 +20,7 @@ for(let i=1;i<=n;i++){
     console.log();
 }
 
-for(let i=n;i>0;i--){
+for(let i=n-1;i>0;i--){
 
     for(let j=n;j>i;j--){
         process.stdout.write(" ");
